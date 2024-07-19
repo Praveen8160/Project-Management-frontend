@@ -48,8 +48,8 @@ function SignUp() {
     }
   };
   return (
-    <div className="flex flex-col">
-      <div className="flex lg:flex-row flex-col items-center shadow-2xl w-auto lg:mt-20">
+    <div className="flex flex-col overflow-hidden">
+      <div className="flex lg:flex-row flex-col items-center shadow-2xl w-auto lg:mt-20 overflow-hidden">
         <div>
           <img
             src="https://cdn.technologyadvice.com/wp-content/uploads/2019/05/How-Using-JIRA-For-Project-Management-Can-Make-Any-Team-More-Productive-01.png"

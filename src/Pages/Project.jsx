@@ -48,7 +48,7 @@ function Project() {
         ) : (
           <>
             <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-center my-2">
-              {project.name}
+              {project.name.toUpperCase()}
             </h1>
             <hr />
             <p className="text-sm sm:text-lg m-3">{project.description}</p>
@@ -81,7 +81,7 @@ function Project() {
                         className="bg-slate-300 shadow-md p-4 border-gray-700 rounded-md"
                       >
                         <h3 className="text-lg sm:text-xl font-semibold mb-2">
-                          {item.title}
+                          {item.title.toUpperCase()}
                         </h3>
                         <p className="text-gray-700 mb-2">{item.description}</p>
                         <p className="mb-2">

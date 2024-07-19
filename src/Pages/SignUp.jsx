@@ -21,7 +21,7 @@ function SignUp() {
  
     try {
       const response = await axios.post(
-        "http://localhost:2020/User/Signup",
+        "https://project-management-backend-v16g.onrender.com/User/Signup",
         {
           username: data.username,
           email: data.email,

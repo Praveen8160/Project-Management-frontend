@@ -27,7 +27,7 @@ function DashBoard() {
     try {
       setloading(true);
       const response = await axios.get(
-        "http://localhost:2020/Project/allProject",
+        "https://project-management-backend-v16g.onrender.com/Project/allProject",
         {
           withCredentials: true,
         }
@@ -44,7 +44,7 @@ function DashBoard() {
     try {
       setloading(true);
       const response = await axios.get(
-        "http://localhost:2020/Task/getAllTask",
+        "https://project-management-backend-v16g.onrender.com/Task/getAllTask",
         { withCredentials: true }
       );
       // console.log(response.data);

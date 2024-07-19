@@ -7,7 +7,7 @@ export const SET_ERROR = "SET_ERROR";
 export const login = () => async (dispatch) => {
   try {
     const response = await axios.get(
-      "http://localhost:2020/Authentication/auth",
+      "https://project-management-backend-v16g.onrender.com/Authentication/auth",
       {
         withCredentials: true,
       }
@@ -21,7 +21,7 @@ export const login = () => async (dispatch) => {
 export const logout = () => async (dispatch) => {
   try {
     await axios.post(
-      "http://localhost:2020/Authentication/logout",
+      "https://project-management-backend-v16g.onrender.com/Authentication/logout",
       {},
       {
         withCredentials: true,

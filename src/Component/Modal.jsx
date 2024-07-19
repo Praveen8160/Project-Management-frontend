@@ -12,7 +12,7 @@ const Modal = ({ onClose }) => {
     e.preventDefault();
     try {
       const response = await axios.post(
-        "http://localhost:2020/Project/addProject",
+        "https://project-management-backend-v16g.onrender.com/Project/addProject",
         {
           name: value.pname,
           description: value.description,

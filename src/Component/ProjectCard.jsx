@@ -6,7 +6,7 @@ function ProjectCard({ project, onDelete }) {
   const deleteproject = async (id) => {
     try {
       const response = await axios.delete(
-        `http://localhost:2020/Project/deleteProject/${id}`,
+        `https://project-management-backend-v16g.onrender.com/Project/deleteProject/${id}`,
         {
           withCredentials: true,
         }

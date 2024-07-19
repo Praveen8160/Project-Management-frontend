@@ -23,7 +23,7 @@ function Project() {
     try {
       setLoading(true);
       const response = await axios.get(
-        `http://localhost:2020/Project/getSingleProject/${id}`,
+        `https://project-management-backend-v16g.onrender.com/Project/getSingleProject/${id}`,
         { withCredentials: true }
       );
       if (response.status === 200) {

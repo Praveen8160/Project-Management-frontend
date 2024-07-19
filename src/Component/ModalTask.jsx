@@ -12,7 +12,7 @@ function ModalTask({ onClose, pid }) {
   });
   const getAllUser = async () => {
     try {
-      const response = await axios.get("http://localhost:2020/User/allUser", {
+      const response = await axios.get("https://project-management-backend-v16g.onrender.com/User/allUser", {
         withCredentials: true,
       });
       // console.log(response.data);
@@ -26,7 +26,7 @@ function ModalTask({ onClose, pid }) {
     e.preventDefault();
     try {
       const response = await axios.post(
-        "http://localhost:2020/Task/addTask",
+        "https://project-management-backend-v16g.onrender.com/Task/addTask",
         {
           title: value.pname,
           description: value.description,

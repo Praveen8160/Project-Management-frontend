@@ -12,7 +12,7 @@ function TaskCard({ task, onUpdateStatus }) {
   const updateStatus = async (id) => {
     try {
       const response = await axios.post(
-        "http://localhost:2020/Task/updateTaskStatus",
+        "https://project-management-backend-v16g.onrender.com/Task/updateTaskStatus",
         {
           status,
           id,

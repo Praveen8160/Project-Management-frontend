@@ -99,7 +99,7 @@ function SignIn() {
               className="h-10 rounded-lg border-2 border-gray-600 mt-5"
               placeholder="********"
             />
-            <button className="border-2 rounded-lg mt-8 py-3 bg-gray-800 text-white">
+            <button className="border-2 rounded-lg mt-8 py-3 bg-gray-800 hover:bg-gray-600 text-white">
               Sign In
             </button>
           </form>

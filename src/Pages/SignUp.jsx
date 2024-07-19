@@ -91,7 +91,7 @@ function SignUp() {
               name=""
               id=""
               className="h-10 rounded-lg border-2 border-gray-600 mt-5"
-              placeholder="Enter Your Name"
+              placeholder="Enter Your Email"
               {...register("email", { required: "Enter your email" })}
             />
             {errors.email && (
@@ -114,7 +114,7 @@ function SignUp() {
             {errors.password && (
               <p className="text-red-700">{errors.password.message}</p>
             )}
-            <button className="border-2 rounded-lg mt-8 py-3 bg-gray-800 text-white">
+            <button className="border-2 rounded-lg mt-8 py-3 bg-gray-800 hover:bg-gray-600 text-white">
               Sign Up
             </button>
           </form>
